@@ -1,0 +1,55 @@
+/* Stijl voor de navbar-container */
+.navbar {
+    height: 150px;
+    background-color: #157cc0;
+    color: #fff;
+    padding: 1px 1px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease; /* Add a transition effect to the background-color property */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Stijl voor de navbar-item-container */
+.navbar-item {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s ease; /* Add a transition effect to the background-color property */
+}
+
+/* Stijl voor de tekstlinks in de navbar */
+.navbar-item a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px; 
+    margin: 0 10px;
+    padding: 10px;
+}
+
+/* geeft de navbar namen een hover kleur */
+.navbar-item a:hover {
+    color: #ac2f6d;
+}
+
+/* Add a hover effect to the navbar and its items */
+.navbar:hover, .navbar-item:hover {
+    background-color: #d54a8f;
+    height: 150px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 767px) {
+    .navbar {
+        height: 50px;
+    }
+    .navbar-item {
+        margin: 0 5px;
+        padding: 5px;
+    }
+}
+
+.navbar-logo {
+    width: 210px;
+    height: 210px;
+}

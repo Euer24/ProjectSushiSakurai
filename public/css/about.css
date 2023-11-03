@@ -1,0 +1,14 @@
+.gallery img {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+h1{
+    color: #ec499b;
+    text-align: center;
+}
+body {
+    background: linear-gradient(to bottom right, rgb(255, 105, 180), rgb(60, 171, 244));
+    transition: background 0.5s ease; /* Add a transition effect to the background property */
+}

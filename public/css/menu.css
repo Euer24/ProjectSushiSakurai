@@ -1,0 +1,29 @@
+.menu-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-item {
+text-align: center;
+}
+.menu-section > div {
+    flex-basis: 48%; 
+}
+
+body {
+    background: linear-gradient(to bottom right, rgb(255, 105, 180), rgb(60, 171, 244));
+    transition: background 0.5s ease; /* Add a transition effect to the background property */
+}
+h1 {
+    color: rgb(223, 218, 218);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(223, 218, 218);
+    text-align: center;
+}
+
+p {
+    color: rgb(223, 218, 218);
+}
